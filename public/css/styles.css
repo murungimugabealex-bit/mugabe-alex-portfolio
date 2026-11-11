@@ -232,15 +232,6 @@ h3 { font-size: 1.125rem; margin-bottom: var(--space-1); }
   font-size: 5rem;
   font-weight: 700;
 }
-.portrait-frame::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border: 2px solid rgba(201, 168, 76, 0.55);
-  border-radius: var(--radius);
-  transform: translate(10px, 10px);
-  pointer-events: none;
-}
 
 /* ---------- Sections ---------- */
 .section { padding: var(--space-5) 0; }
@@ -261,6 +252,7 @@ h3 { font-size: 1.125rem; margin-bottom: var(--space-1); }
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-4);
+  margin-top: var(--space-3);
 }
 .about-text p { margin-bottom: var(--space-2); max-width: 60ch; }
 .about-learning {
