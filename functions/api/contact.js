@@ -1,5 +1,5 @@
 const CONTACT_TO = "murungimugabealex@gmail.com";
-const FROM = "Mugabe Alex Portfolio <onboarding@resend.dev>";
+const FROM = "Murungi Alex Mugabe Portfolio <onboarding@resend.dev>";
 const MAX = { name: 100, email: 200, message: 5000 };
 
 function json(body, status = 200) {

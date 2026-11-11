@@ -1,4 +1,4 @@
-# Mugabe Alex — Personal Website
+# Murungi Alex Mugabe — Personal Website
 
 My personal portfolio and contact site. Static HTML, CSS and vanilla JavaScript, hosted on
 Cloudflare Pages with a serverless contact form (Cloudflare Pages Functions + Resend).

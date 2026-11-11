@@ -1,5 +1,5 @@
 /* ============================================================
-   Mugabe Alex — Portfolio
+   Murungi Alex Mugabe — Portfolio
    Aesthetic: earthy, grounded, Ugandan.
    Warm off-white base, deep forest green, Kampala gold.
    No gradients, no drop shadows — type, space and rules do the work.
@@ -307,6 +307,14 @@ h3 { font-size: 1.125rem; margin-bottom: var(--space-1); }
   border-radius: 999px;
   padding: 0.15rem 0.7rem;
 }
+.project-link {
+  display: inline-block;
+  margin-top: var(--space-2);
+  font-family: var(--font-display);
+  font-weight: 600;
+  text-decoration: none;
+}
+.project-link:hover { text-decoration: underline; }
 
 /* ---------- Skills ---------- */
 .skills-grid { display: grid; grid-template-columns: 1fr; gap: var(--space-4); }
@@ -418,7 +426,7 @@ a.channel:hover { border-color: var(--forest); }
   .project-grid { grid-template-columns: repeat(3, 1fr); }
   .project-card:nth-child(4),
   .project-card:nth-child(5) { grid-column: span 1; }
-  .skills-grid { grid-template-columns: 1fr 1fr 1fr; column-gap: var(--space-4); }
+  .skills-grid { grid-template-columns: 1fr 1fr 1fr 1fr; column-gap: var(--space-4); }
   .skill-note { grid-column: auto; }
 }
 

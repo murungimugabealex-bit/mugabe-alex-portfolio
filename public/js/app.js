@@ -1,5 +1,5 @@
 /* ============================================================
-   Mugabe Alex — Portfolio
+   Murungi Alex Mugabe — Portfolio
    Behaviour: mobile nav, active-section highlighting, contact form.
    ============================================================ */
 (function () {
@@ -10,7 +10,7 @@
     // Where the contact form is handled (Cloudflare Pages Function).
     endpoint: "/api/contact",
     // International format, no + or spaces.
-    whatsapp: "256770156389"
+    whatsapp: "256770159605"
   };
 
   /* ---------- Footer year ---------- */
